@@ -9,10 +9,6 @@
   [Error 128](https://github.com/bower/bower/issues/50) from some GitHub
   repos during `bower install` execution, run `git config --global
   url."https://".insteadOf git://` and try `npm install` again
-- If `npm install` fails after an update of your local copy during
-  `bower install` complaining about version issues, delete
-  `/app/bower_components` and try again to remove outdated versions that
-  cause conflicts
 - If during `npm install` the `sqlite3` no binaries can be downloaded
   for your system, the setup falls back to building from source with
   `node-gyp`. Check the
@@ -21,6 +17,7 @@
   Visual C++ Build Tools etc.)
 - If `npm install` fails on Ubuntu (e.g. while installing PhantomJS) you
   might have to install a recent version of Node.js and try again.
+- If `npm install` runs into a `Unexpected end of JSON input` error you might need to clean your NPM cache with `npm cache clean --force` and then try again
 
 ## Docker
 
