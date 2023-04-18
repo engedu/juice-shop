@@ -1,5 +1,5 @@
 {
-  "name": "OWASP Juice Shop",
+  "name": "OZ Shop",
   "description": "Probably the most modern and sophisticated insecure web application",
   "keywords": [
     "web security",
@@ -17,7 +17,7 @@
     "capture the flag",
     "awareness"
   ],
-  "website": "https://owasp-juice.shop",
-  "repository": "https://github.com/juice-shop/juice-shop",
+  "website": "https://ozshop.onrender.com",
+  "repository": "https://github.com/engedu/juice-shop",
   "logo": "https://raw.githubusercontent.com/juice-shop/juice-shop/master/frontend/src/assets/public/images/JuiceShop_Logo.png"
 }
