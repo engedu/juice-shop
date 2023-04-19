@@ -281,7 +281,7 @@ products:
     image: stickersheet_se.png
     deletedDate: '2017-09-20'
   -
-    name: 'Pwning OWASP Juice Shop'
+    name: 'Pwning OZ Shop'
     description: '<em>The official Companion Guide</em> by Björn Kimminich available <a href="https://leanpub.com/juice-shop">for free on LeanPub</a> and also <a href="https://pwning.owasp-juice.shop">readable online</a>!'
     price: 5.99
     image: cover_small.jpg
