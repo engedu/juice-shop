@@ -31,7 +31,7 @@ application:
   welcomeBanner:
     showOnFirstStart: true
     title: 'Welcome to OZ Shop!'
-    message: "<p>Being a web application with a vast number of intended security vulnerabilities, the <strong>OZ Shop</strong> is supposed to be the opposite of a best practice or template application for web developers: It is an awareness, training, demonstration and exercise tool for security risks in modern web applications.</p>
+    message: "<p>Being a web application with a vast number of intended security vulnerabilities, the <strong>OZ Shop</strong> is supposed to be the opposite of a best practice or template application for web developers: It is an awareness, training, demonstration and exercise tool for security risks in modern web applications.</p>"
   cookieConsent:
     backgroundColor: '#546e7a'
     textColor: '#ffffff'
@@ -42,7 +42,7 @@ application:
     linkText: 'But me wait!'
     linkUrl: 'https://www.youtube.com/watch?v=9PnbKL3wuH4'
   securityTxt:
-    contact: 'mailto:donotreply@owasp-juice.shop'
+    contact: 'mailto:donotreply@ozshop.com'
     encryption: 'https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda'
     acknowledgements: '/#/score-board'
     hiring: '/#/jobs'
@@ -55,26 +55,26 @@ application:
   googleOauth:
     clientId: '1005568560502-6hm16lef8oh46hr2d98vf2ohlnj4nfhq.apps.googleusercontent.com'
     authorizedRedirects:
-      - { uri: 'https://demo.owasp-juice.shop' }
-      - { uri: 'https://juice-shop.herokuapp.com' }
-      - { uri: 'https://preview.owasp-juice.shop' }
+      - { uri: 'https://demo.ozshop.com' }
+      - { uri: 'https://ozshop.herokuapp.com' }
+      - { uri: 'https://preview.ozshop.com' }
       - { uri: 'https://juice-shop-staging.herokuapp.com' }
       - { uri: 'https://juice-shop.wtf' }
-      - { uri: 'http://localhost:3000', proxy: 'https://local3000.owasp-juice.shop' }
-      - { uri: 'http://127.0.0.1:3000', proxy: 'https://local3000.owasp-juice.shop' }
-      - { uri: 'http://localhost:4200', proxy: 'https://local4200.owasp-juice.shop' }
-      - { uri: 'http://127.0.0.1:4200', proxy: 'https://local4200.owasp-juice.shop' }
-      - { uri: 'http://192.168.99.100:3000', proxy: 'https://localmac.owasp-juice.shop' }
-      - { uri: 'http://192.168.99.100:4200', proxy: 'https://localmac.owasp-juice.shop' }
-      - { uri: 'http://penguin.termina.linux.test:3000', proxy: 'https://localchromeos.owasp-juice.shop' }
-      - { uri: 'http://penguin.termina.linux.test:4200', proxy: 'https://localchromeos.owasp-juice.shop' }
+      - { uri: 'http://localhost:3000', proxy: 'https://local3000.ozshop.com' }
+      - { uri: 'http://127.0.0.1:3000', proxy: 'https://local3000.ozshop.com' }
+      - { uri: 'http://localhost:4200', proxy: 'https://local4200.ozshop.com' }
+      - { uri: 'http://127.0.0.1:4200', proxy: 'https://local4200.ozshop.com' }
+      - { uri: 'http://192.168.99.100:3000', proxy: 'https://localmac.ozshop.com' }
+      - { uri: 'http://192.168.99.100:4200', proxy: 'https://localmac.ozshop.com' }
+      - { uri: 'http://penguin.termina.linux.test:3000', proxy: 'https://localchromeos.ozshop.com' }
+      - { uri: 'http://penguin.termina.linux.test:4200', proxy: 'https://localchromeos.ozshop.com' }
 challenges:
   showSolvedNotifications: true
   showHints: true
   showMitigations: true
   codingChallengesEnabled: solved # Options: never  solved  always
   restrictToTutorialsFirst: false
-  overwriteUrlForProductTamperingChallenge: 'https://owasp.slack.com'
+  overwriteUrlForProductTamperingChallenge: 'https://ozshop.slack.com'
   xssBonusPayload: '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>'
   safetyOverride: false
   showFeedbackButtons: true
@@ -185,7 +185,7 @@ products:
     image: sticker_single.jpg
   -
     name: 'OZ Shop Temporary Tattoos (16pcs)'
-    description: 'Get one of these <a href="https://www.stickeryou.com/products/owasp-juice-shop/794" target="_blank">temporary tattoos</a> to proudly wear the OZ Shop or CTF Extension logo on your skin! If you tweet a photo of yourself with the tattoo, you get a couple of our stickers for free! Please mention <a href="https://twitter.com/ozshop" target="_blank"><code>@ozshop/code></a> in your tweet!'
+    description: 'Get one of these <a href="https://www.stickeryou.com/products/oz-shop/794" target="_blank">temporary tattoos</a> to proudly wear the OZ Shop or CTF Extension logo on your skin! If you tweet a photo of yourself with the tattoo, you get a couple of our stickers for free! Please mention <a href="https://twitter.com/ozshop" target="_blank"><code>@ozshop/code></a> in your tweet!'
     price: 14.99
     image: tattoo.jpg
     reviews:
@@ -279,7 +279,7 @@ products:
     deletedDate: '2017-09-20'
   -
     name: 'Pwning OZ Shop'
-    description: '<em>The official Companion Guide</em> by Björn Kimminich available <a href="https://leanpub.com/juice-shop">for free on LeanPub</a> and also <a href="https://pwning.owasp-juice.shop">readable online</a>!'
+    description: '<em>The official Companion Guide</em> by Björn Kimminich available <a href="https://leanpub.com/juice-shop">for free on LeanPub</a> and also <a href="https://pwning.ozshop.com">readable online</a>!'
     price: 5.99
     image: cover_small.jpg
     reviews:
